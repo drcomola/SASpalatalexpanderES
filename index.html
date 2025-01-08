@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAS Palatal Expander Calculator. by Dr. Giorgio Comola</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SAS Palatal Expander Calculator </h1>
+        <h1>By Dr. Giorgio Comola</h1>
+
+        <img src="sfere.png" alt="Sfere" class="image">
+
+        <div class="input-group">
+            <label for="arcata-superiore">Arcada superior (Distancia Cúspides MP):</label>
+            <input type="number" id="arcata-superiore" placeholder="Insertar un valor">
+        </div>
+
+        <div class="input-group">
+            <label for="arcata-inferiore">Arcada Inferior (Distancia Cúspides MV):</label>
+            <input type="number" id="arcata-inferiore" placeholder="Inserisci un valore">
+        </div>
+
+        <p>Integrar los valores de compensación y descompensación (Valores de torque y expansión dental)</p>
+
+        <div class="button-group">
+            <button id="calcolatore-semplicato">Calculadora Rápida</button>
+            <button id="calcolatore-avanzato">Calculadora Avanzada</button>
+        </div>
+
+        <button id="calcola-valore">Calcula Cantidad de expansión necesaria</button>
+
+        <p id="risultato"></p>
+
+        <div class="ipercorrezione-group">
+            <p>Ipercorreción de clase III:</p>
+            <button class="ipercorrezione" data-valore="2">Leve</button>
+            <button class="ipercorrezione" data-valore="3">Moderada</button>
+            <button class="ipercorrezione" data-valore="4">Grave</button>
+        </div>
+
+        <p id="risultato-iper"></p>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
