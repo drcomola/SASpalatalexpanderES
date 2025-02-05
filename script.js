@@ -21,7 +21,7 @@ function calculateResult() {
   risultato += ipercorrezione;
 
   // Mostra il risultato
-  document.getElementById("risultato").textContent = `Los resultados indicados sono una referencia para medir una valor promedio de expansión, queda bajo responsabilidad del ortodoncista evaluar si los resultados clínicos son adecuados. Valor de expansión aconsejado: ${risultato.toFixed(2)}`;
+  document.getElementById("risultato").textContent = `Los resultados indicados sono una referencia para medir un valor promedio de expansión, queda bajo responsabilidad del ortodoncista evaluar si los resultados clínicos son adecuados. Valor de expansión aconsejado: ${risultato.toFixed(2)}`;
 }
 
 document.getElementById("calcola-valore").addEventListener("click", calculateResult);
